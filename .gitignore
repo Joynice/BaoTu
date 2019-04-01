@@ -1,0 +1,9 @@
+# Virtual environment
+venv
+ven
+
+# Python:
+*.py[cod]
+
+# pycharm
+.idea/*
