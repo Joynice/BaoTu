@@ -1,8 +1,3 @@
----
-date: 2019-04-01 19:31
-status: public
-title: BaoTu
----
 
 # BaoTu
 
@@ -54,12 +49,18 @@ title: BaoTu
 ```
 ##包图网
 这个网站是我无意间发现的，看到里面有简单的素材视频，打算下载下来使用：
+
 ![包图网](https://raw.githubusercontent.com/Joynice/image/master/img/123.JPG)
+
 通过分析找到每个视频的url和name：
+
 ![视频url](https://raw.githubusercontent.com/Joynice/image/master/img/1.JPG)
    <div align=center> 视频url</div>
+
    ![视频name](https://raw.githubusercontent.com/Joynice/image/master/img/2.JPG)<div  align=center>视频name</div>
+
    然后可以将每页的视频都爬取下来，具体操作间**request**函数，**download**函数采用多线程进行爬取，但是由于该网站发爬虫机制的存在导致有少部分的视频下载失败。
 具体代码都写有注释：
+
 参见[github](https://github.com/Joynice/BaoTu)
    
